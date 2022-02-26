@@ -78,7 +78,7 @@ span {
     width: 250px;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 2px solid var(--line);
 }
 
@@ -97,6 +97,27 @@ span {
 img.avatar {
     height: 35px;
     width: 35px;
+}
+
+p.card-price::before {
+    content: "";
+    display: block;
+    background: url("images/icon-ethereum.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 2px;
+    margin-right: -2px;
+}
+
+p.card-time::before {
+    content: "";
+    display: block;
+    background: url("images/icon-clock.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 2px;
 }
 
 
