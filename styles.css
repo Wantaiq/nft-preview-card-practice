@@ -14,7 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -120,34 +119,25 @@ p.card-time::before {
     margin: 2px;
 }
 
+    .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    border: 1px solid red;
+    margin-top: 100px;
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
 
+@media only screen and (min-width: 1440px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+    .card {
+        max-width: 22vw;
+        max-height: 62vh;
+    }
