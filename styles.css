@@ -65,10 +65,14 @@ span {
     color:white;
 }
 
+.card-header {
+    font-weight: 400;
+}
+
 .card-description,
 .card-details,
 .card-autor {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 20px;
 }
 
 .card-details {
