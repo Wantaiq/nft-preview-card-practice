@@ -9,7 +9,7 @@
     --text-color: hsl(0, 0%, 100%);
     -ff-card: "Outfit", sans-serif;
 }
-
+/* Add Box-Shadow */
 * {
     margin: 0;
     padding: 0;
@@ -26,9 +26,9 @@ body {
     align-items: center;
     justify-content: flex-start;
     background-color: var(--card-bg);
-    width: 83vw;
-    height: 79vh;
     border-radius: 10px;
+    width: 80vw;
+    height: 77vh;
     margin: 30px auto;
     font-family: "Outfit", sans-serif;
 }
@@ -66,7 +66,9 @@ span {
 }
 
 .card-header {
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Outift", sans-serif;
+    font-size: 18px;
 }
 
 .card-description,
@@ -78,10 +80,9 @@ span {
 .card-details {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 80%;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-bottom: 10px;
     border-bottom: 2px solid var(--line);
 }
 
@@ -123,12 +124,12 @@ p.card-time::before {
     margin: 2px;
 }
 
-    .attribution { 
+.attribution { 
     font-size: 11px; 
     text-align: center; 
     margin-top: 100px;
 }
-    .attribution a { 
+ .attribution a { 
         color: hsl(228, 45%, 44%); 
     }
 
@@ -142,6 +143,6 @@ p.card-time::before {
     }
     .card {
         max-width: 22vw;
-        max-height: 62vh;
+        max-height: 65vh;
     }
 }
